@@ -26,10 +26,6 @@ header {
     flex-basis: calc(100vw / 4);
     list-style-type: none;
 }
-.h-top ul li:hover {
-    padding: 22px 0px;
-    border-bottom: 2px solid black;
-}
 .h-bottom {
     height: 75vh;
     padding-top: 10vh;
