@@ -1,0 +1,21 @@
+/* Debug header */
+.debug header {
+    background-color: blue;
+}
+
+.debug .h-top {
+    border: 1px dotted red;
+    background-color: grey;
+}
+
+.debug .h-bottom {
+    background-color: yellow !important;
+    border: 1px dotted green;
+}
+/* Debug corpo pagina */
+.first-section {
+    background-color: bisque;
+}
+.second-section {
+    background-color: rgb(139, 80, 8);
+}

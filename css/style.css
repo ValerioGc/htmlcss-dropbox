@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 10;
 }
 .h-top ul {
     display: flex;
@@ -39,19 +40,14 @@ header img {
     transform: translate(-50%, -50%);
 }
 /* Corpo pagina */
-    
+.first-section {
+    height:150vh;
+}
+
+/* Sezione 2 */
+.second-section {
+    height:50vh;
+}
+/* Sezione 3 */
+
 /* Footer pagina */
-
-/* Classi debug */
-.debug header {
-    background-color: blue;
-}
-.debug .h-top {
-    border: 1px dotted red;
-    background-color: grey;
-}
-.debug .h-bottom {
-    background-color: yellow!important;
-    border: 1px dotted green;
-
-}
