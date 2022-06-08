@@ -42,18 +42,18 @@ header img {
     transform: translate(-50%, -50%);
 }
 /* Corpo pagina */
-.first-section {
+main section:not(.fourth-section) {
     width: 70%;
     margin: auto;
+}
+/* Prima sezione */
+.first-section {
     height: 150vh;
     text-align: left;
 }
 .head-section > h2:first-child {
     padding: 30px 0;
     font-size: 30px;
-}
-.head-section p {
-    padding: 30px;
 }
 .head-section > div, span :not(p) {
     display: inline-block;
@@ -76,12 +76,37 @@ header img {
 .fatturazione {
     padding: 20px;
 }
-
+.price-table-top {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.price-table-top > div {
+    border: 1px solid black;
+    height: 90vh;
+    width: calc(90% / 3);
+}
+.price-table-top > div hr {
+    border: 1px solid lightgrey;
+    width: 30%;
+}
+/* Tabella prezzi inferiore */
+.price-table-bottom {
+    padding-top: 45px;
+}
+.price-table-bottom > div {
+    border: 1px solid black;
+    height: 35vh;
+    width: 100%;
+}
 
 /* Sezione 2 */
 .second-section {
-    height:50vh;
+    height:55vh;
 }
 /* Sezione 3 */
-
+.fourth-section {
+    height: 50vh;
+}
 /* Footer pagina */

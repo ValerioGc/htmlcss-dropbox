@@ -13,9 +13,16 @@
     border: 1px dotted green;
 }
 /* Debug corpo pagina */
-.first-section {
+.debug .first-section {
     background-color: bisque;
 }
-.second-section {
+.debug .price-table-top > div, .debug .price-table-bottom > div {
+    background-color: grey;
+}
+.debug .second-section {
     background-color: rgb(139, 80, 8);
+}
+
+.debug .fourth-section {
+    background-color: blueviolet;
 }
