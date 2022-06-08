@@ -28,6 +28,8 @@ header {
     list-style-type: none;
 }
 .h-bottom {
+    margin: auto;
+    width: 80%;
     height: 75vh;
     padding-top: 10vh;
     background-color: lightblue;
@@ -41,8 +43,40 @@ header img {
 }
 /* Corpo pagina */
 .first-section {
-    height:150vh;
+    width: 70%;
+    margin: auto;
+    height: 150vh;
+    text-align: left;
 }
+.head-section > h2:first-child {
+    padding: 30px 0;
+    font-size: 30px;
+}
+.head-section p {
+    padding: 30px;
+}
+.head-section > div, span :not(p) {
+    display: inline-block;
+}
+.head-section > span, div {
+    vertical-align: middle;
+}
+#chk-radio-btn {
+    border: 5px solid blue;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+#unchk-radio-btn {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+.fatturazione {
+    padding: 20px;
+}
+
 
 /* Sezione 2 */
 .second-section {
