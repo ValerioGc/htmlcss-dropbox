@@ -7,25 +7,33 @@ body {
     font-family: 'Open Sans' sans-serif;
 }
 /* Header pagina */
+header {
+    height: 80vh;
+}
 .h-top {
     width: 100vw;
     position: fixed;
-    height:
+    height:10vh;
+}
+.h-bottom {
+    height: 75vh;
+    padding-top: 10vh;
+    background-color: lightblue;
 }
 /* Corpo pagina */
 
 /* Footer pagina */
 
 /* Classi debug */
-.debug h-top {
+.debug header {
+    background-color: blue;
+}
+.debug .h-top {
     border: 1px dotted red;
+    background-color: grey;
 }
-.debug h-bottom {
-background-color: yellow;
-}
-.debug header-top {
-    background-color:blue;
-}
-.debug header-top-underlay {
-    background-color: crimson;
+.debug .h-bottom {
+    background-color: yellow!important;
+    border: 1px dotted green;
+
 }
