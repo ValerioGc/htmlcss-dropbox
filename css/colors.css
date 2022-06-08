@@ -63,6 +63,9 @@
     background-color: #ffd830;
 }
 /* Colori Footer */
+footer {
+    background-color: #000;
+}
 .f-container p {
     color: #fff;
 }
