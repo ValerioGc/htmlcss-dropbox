@@ -2,12 +2,10 @@
 .debug header {
     background-color: blue;
 }
-
 .debug .h-top {
     border: 1px dotted red;
     background-color: grey;
 }
-
 .debug .h-bottom {
     background-color: yellow !important;
     border: 1px dotted green;
@@ -19,10 +17,32 @@
 .debug .price-table-top > div, .debug .price-table-bottom > div {
     background-color: grey;
 }
+/* Sezione 2 */
 .debug .second-section {
     background-color: rgb(139, 80, 8);
 }
-
+.debug .second-section>div {
+    background-color: rgb(36, 139, 8);
+}
+/* Sezione 3 */
+.debug .third-section {
+    background-color: rgb(52, 43, 226);
+}
+/* Sezione 4 */
 .debug .fourth-section {
     background-color: blueviolet;
+}
+/* Sezione 5 */
+.debug .last-section {
+    background-color: rgb(226, 159, 43);
+}
+/* Sezione 5 */
+.debug footer {
+    background-color: #000;
+}
+.debug .f-container-flex {
+    background-color: rgb(226, 43, 43);
+}
+.debug .f-container-flex div {
+    background-color: #345642;
 }

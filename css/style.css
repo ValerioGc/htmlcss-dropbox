@@ -19,6 +19,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+    background-color: #fff;
 }
 .h-top ul {
     display: flex;
@@ -28,11 +29,13 @@ header {
     list-style-type: none;
 }
 .h-bottom {
-    margin: auto;
-    width: 80%;
     height: 75vh;
     padding-top: 10vh;
     background-color: lightblue;
+}
+.h-bottom {
+    margin: auto;
+    width: 70%;
 }
 header img {
     position: absolute;
@@ -43,7 +46,7 @@ header img {
 }
 /* Corpo pagina */
 main section:not(.fourth-section) {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 /* Prima sezione */
@@ -80,7 +83,7 @@ main section:not(.fourth-section) {
     padding-top: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
 }
 .price-table-top > div {
     border: 1px solid black;
@@ -100,13 +103,59 @@ main section:not(.fourth-section) {
     height: 35vh;
     width: 100%;
 }
-
 /* Sezione 2 */
 .second-section {
     height:55vh;
+    display: flex;
+    align-items: center;
+}
+.second-section > div {
+    width: calc(100% / 2);
+    height: 50vh;
+}
+#s2-img {
+    background-image: url('../img/partner.png');
+    background-size: cover;
 }
 /* Sezione 3 */
+.third-section {
+    height: 50vh;
+}
+/* Sezione 4 */
 .fourth-section {
     height: 50vh;
 }
+/* Sezione 5 */
+.last-section {
+    height: 50vh;
+}
 /* Footer pagina */
+footer {
+    height: 50vh;
+}
+.f-container {
+    width: 70%;
+    margin: auto;
+}
+.f-container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.f-container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.f-container-flex > div {
+    width: calc(85% / 5);
+    height: 38vh;
+}
+.f-container hr {
+    border: 0.5px solid #fff;
+    width: 10%;
+    margin: 30px 0;
+}
+.f-container p {
+    color: #fff;
+}
