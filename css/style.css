@@ -6,6 +6,10 @@
 body {
     font-family: 'Open Sans' sans-serif;
 }
+/* Regole font */
+h2 {
+    font-size: 36px;
+}
 /* Header pagina */
 header {
     height: 80vh;
@@ -52,7 +56,6 @@ main section:not(.fourth-section) {
 /* Prima sezione */
 .head-section > h2:first-child {
     padding: 30px 0;
-    font-size: 30px;
 }
 .head-section > div, span :not(p) {
     display: inline-block;
@@ -127,17 +130,46 @@ main section:not(.fourth-section) {
 }
 .third-section h2:first-child {
     text-align: center;
-    font-size: 30px;
 }
 .third-section h2 {
-    font-size: 30px;
-    font-size: 30px;
-    text-align: left;
     padding: 50px 0;
 }
+.third-section a, .third-section a:active {
+    color: blue;
+}
 /* Sezione 4 */
-.fourth-section {
-    height: 50vh;
+.top-part {
+    display: flex;
+    width: 100%;
+    height: 65vh;
+}
+.b-cont {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.b-cont div {
+    width: calc(100% / 2);
+    height: 50%;
+}
+.bring-dpx {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.dpx-container {
+    width: calc(100% / 2);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    flex-basis: 59%;
+    padding-left: 20%;
 }
 /* Sezione 5 */
 .last-section {

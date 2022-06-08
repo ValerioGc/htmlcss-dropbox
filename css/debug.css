@@ -26,7 +26,7 @@
 }
 /* Sezione 3 */
 .debug .third-section {
-    background-color: rgb(52, 43, 226);
+    background-color: rgb(255, 0, 0);
 }
 .debug #s3-container {
     background-color: rgb(226, 43, 183);
@@ -38,6 +38,18 @@
 /* Sezione 4 */
 .debug .fourth-section {
     background-color: blueviolet;
+}
+.debug .b-cont {
+    background-color: rgb(43, 226, 150);
+}
+.debug .b-cont div {
+    border: 2px dotted red;
+}
+.debug .bring-dpx {
+    background-color: lightblue;
+}
+.debug .dpx-container {
+    background-color: rgb(19, 83, 15);
 }
 /* Sezione 5 */
 .debug .last-section {
