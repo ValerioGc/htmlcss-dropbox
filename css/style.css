@@ -50,10 +50,6 @@ main section:not(.fourth-section) {
     margin: auto;
 }
 /* Prima sezione */
-.first-section {
-    height: 150vh;
-    text-align: left;
-}
 .head-section > h2:first-child {
     padding: 30px 0;
     font-size: 30px;
@@ -105,9 +101,9 @@ main section:not(.fourth-section) {
 }
 /* Sezione 2 */
 .second-section {
-    height:75vh;
     display: flex;
     align-items: center;
+    padding: 50px 0px;
 }
 .second-section > div {
     width: calc(100% / 2);
@@ -118,8 +114,20 @@ main section:not(.fourth-section) {
     background-size: cover;
 }
 /* Sezione 3 */
-.third-section {
+#s3-container {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+#s3-container div {
+    width: calc(90% / 3 );
     height: 50vh;
+}
+.third-section h2 {
+    text-align: center;
+    font-size: 30px;
 }
 /* Sezione 4 */
 .fourth-section {
