@@ -3,3 +3,29 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Open Sans' sans-serif;
+}
+/* Header pagina */
+.h-top {
+    width: 100vw;
+    position: fixed;
+    height:
+}
+/* Corpo pagina */
+
+/* Footer pagina */
+
+/* Classi debug */
+.debug h-top {
+    border: 1px dotted red;
+}
+.debug h-bottom {
+background-color: yellow;
+}
+.debug header-top {
+    background-color:blue;
+}
+.debug header-top-underlay {
+    background-color: crimson;
+}
