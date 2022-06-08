@@ -175,6 +175,13 @@ main section:not(.fourth-section) {
 .last-section {
     height: 50vh;
 }
+.last-section > h2 {
+    padding: 30px 0;
+}
+.last-section > p {
+    padding: 30px 0;
+    text-align: center;
+}
 /* Footer pagina */
 footer {
     height: 50vh;
