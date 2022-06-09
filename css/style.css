@@ -100,60 +100,83 @@ header {
     left: 65%;
     transform: translate(-50%, -50%);
 }
+
+
+
+
 /* Corpo pagina */
 main section:not(.fourth-section) {
     width: 60%;
     margin: auto;
 }
-/* Prima sezione */
-.head-section > h2:first-child {
-    padding: 30px 0;
-}
-.head-section > div, span :not(p) {
-    display: inline-block;
-}
-.head-section > span, div {
-    vertical-align: middle;
+/* Radio Button */
+#unchk-radio-btn, #chk-radio-btn {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
 }
 #chk-radio-btn {
     border: 5px solid #0061ff;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
 }
 #unchk-radio-btn {
     border: 2px solid black;
-    border-radius: 50%;
-    height: 20px;
-    width: 20px;
+}
+/* Prima sezione */
+.head-section > h2 {
+    padding: 30px 0;
+}
+.head-section div, span :not(p) {
+    display: inline-block;
+}
+.head-section div, span {
+    vertical-align: middle;
 }
 .fatturazione {
     padding: 20px;
 }
 .price-table-top {
     padding-top: 10px;
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 .price-table-top > div {
     border: 1px solid black;
-    height: 90vh;
     width: calc(90% / 3);
 }
-.price-table-top > div hr, #cont-sub-b hr {
+.price-table-top > div hr {
     border: 0.5px solid;
     width: 30%;
+    margin: 50px 20px 50px;
 }
+.user-price {
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding: 10px 0 ;
+}
+.user-price i {
+    padding: 0 6px;
+}
+
 /* Tabella prezzi inferiore */
 .price-table-bottom {
     padding-top: 45px;
 }
 .price-table-bottom > div {
     border: 1px solid #000;
-    height: 35vh;
     width: 100%;
 }
+
+.price-table-bottom div{
+    position: relative;
+}
+.price-table-bottom button {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+
+
 /* Sezione 2 */
 .second-section {
     display: flex;
@@ -168,6 +191,8 @@ main section:not(.fourth-section) {
     background-image: url('../img/partner.png');
     background-size: cover;
 }
+
+
 
 
 
@@ -201,6 +226,8 @@ main section:not(.fourth-section) {
 }
 #cont-sub-b hr {
     margin: 10px 40px;
+    border: 0.5px solid;
+    width: 30%;
 }
 /* Container inferiore sezione 4 */
 .bring-dpx { 

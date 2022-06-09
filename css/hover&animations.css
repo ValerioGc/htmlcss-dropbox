@@ -30,7 +30,7 @@
 }
 /* Effetti bottoni  */
 .btn.bl:hover  {
-    background-color: blue;
+    background-color: #2222ff;
 }
 .btn.wh:hover  {
     color: #fff;

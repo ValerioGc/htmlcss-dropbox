@@ -17,6 +17,9 @@ h3 {
 .col-w {
     color: #fff;
 }
+.col-b {
+    color: blue;
+}
 .light-blue {
     background-color: #b4d0e7;
 }
@@ -37,12 +40,20 @@ h3 {
 .h-top {
     background-color: #fff;
 }
+
+
+
 /* Colori Sezione 1 */
 .price-table-top > div {
     border-color: #000;
 }
+
+
+
+
+
 /* Colori sezione 3 */
-.third-section a, .third-section a:active {
+.first-section a:active, .third-section a:active {
     color: blue;
 }
 /* Colori Sezione 4 */

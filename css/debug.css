@@ -16,6 +16,7 @@
 }
 .debug .price-table-top > div, .debug .price-table-bottom > div {
     background-color: grey;
+    height: 90vh;
 }
 /* Sezione 2 */
 .debug .second-section {
