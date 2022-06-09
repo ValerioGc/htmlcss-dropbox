@@ -11,7 +11,7 @@
     border: 1px dotted green;
 }
 /* Debug corpo pagina */
-.debug .first-section {
+.debug #first-section {
     background-color: bisque;
 }
 .debug .price-table-top > div, .debug .price-table-bottom > div {
@@ -19,14 +19,14 @@
     height: 90vh;
 }
 /* Sezione 2 */
-.debug .second-section {
+.debug #second-section {
     background-color: rgb(139, 80, 8);
 }
-.debug .second-section>div {
+.debug #second-section>div {
     background-color: rgb(36, 139, 8);
 }
 /* Sezione 3 */
-.debug .third-section {
+.debug #third-section {
     background-color: rgb(255, 0, 0);
 }
 .debug #s3-container {
@@ -37,7 +37,7 @@
     border: 2px dotted red;
 }
 /* Sezione 4 */
-.debug .fourth-section {
+.debug #fourth-section {
     background-color: blueviolet;
 }
 .debug .b-cont {
@@ -53,10 +53,10 @@
     background-color: rgb(19, 83, 15);
 }
 /* Sezione 5 */
-.debug .last-section {
+.debug #last-section {
     height: 50vh;
 }
-.debug .last-section {
+.debug #last-section {
     background-color: rgb(226, 159, 43);
 }
 /* Sezione 5 */

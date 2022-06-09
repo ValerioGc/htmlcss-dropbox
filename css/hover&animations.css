@@ -10,19 +10,9 @@
     border:0;
 } 
 /* Effetti corpo pagina  */
-.last-section:hover .hidden-p {
+#last-section:hover .hidden-p {
     display: block;
 }
-/* .m1:hover .hidden-p {
-    display: inline-block;
-} /*
-.main-2:hover .hidden-p-2 {
-    display: inline-block;
-}
-.main-3:hover .hidden-p-3 {
-    display: inline-block;
-} */
-
 /* Effetti Footer */
 .f-container-flex a:hover {
     text-decoration: underline;
@@ -35,4 +25,29 @@
 .btn.wh:hover, .btnx-wh2:hover  {
     color: #fff;
     background-color: #000;
+}
+/* Animazione sfondo brand Sezione 4  */
+#b1:hover, #b1:active {
+    border:20px solid #d1e9cd;
+}
+#b2:hover, #b1:active {
+    border:20px solid #5d2c3f;
+}
+#b3:hover, #b1:active {
+    border:20px solid #619fb8;
+}
+#b4:hover, #b1:active {
+    border:20px solid #ff6363;
+}
+#b5:hover, #b1:active {
+    border:20px solid #d14d61;
+}
+#b6:hover, #b1:active {
+    border:20px solid #d8dde0;
+}
+#b7:hover, #b1:active {
+    border:20px solid #293a7d;
+}
+#b8:hover, #b8:active {
+    border:20px solid #f6de76;
 }

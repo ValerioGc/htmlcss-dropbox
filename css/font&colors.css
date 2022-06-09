@@ -24,7 +24,7 @@ h3 {
     background-color: #b4d0e7;
 }
 /* Colori hr */
-.price-table-top > div hr {
+.price-table-top > div hr, #cont-sub-b hr {
     border-color: lightgrey;
 }
 /* Colori Bottoni */
@@ -40,20 +40,18 @@ h3 {
 .h-top {
     background-color: #fff;
 }
-
-
-
 /* Colori Sezione 1 */
 .price-table-top > div {
     border-color: #000;
 }
-
-
-
-
-
+.fa-arrow-down {
+    color: #000;
+}
+.go-to-price a:active {
+    color: #000;
+}
 /* Colori sezione 3 */
-.first-section a:active, .third-section a:active {
+#first-section a:active, #third-section a:active {
     color: blue;
 }
 /* Colori Sezione 4 */
@@ -79,7 +77,6 @@ footer {
 /* Colori sfondo brand Sezione 4  */
 #b1 {
     background-color: #a2d39b;
-    /* colore effetto bakcground-color: #d1e9cd;*/
 }
 #b2 {
     background-color: #61082b;
