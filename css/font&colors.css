@@ -52,6 +52,17 @@ h3 {
 .bring-dpx h2 {
     color: #61082b;
 }
+/* Colori Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+.f-container p {
+    color: #8e8e8e;
+}
+.f-container i {
+    color: #fff;
+}
 /* Colori sfondo brand Sezione 4  */
 #b1 {
     background-color: #a2d39b;
@@ -77,11 +88,4 @@ h3 {
 }
 #b8 {
     background-color: #ffd830;
-}
-/* Colori Footer */
-footer {
-    background-color: #000;
-}
-.f-container p {
-    color: #fff;
 }
