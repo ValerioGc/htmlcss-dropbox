@@ -13,7 +13,7 @@
 #last-section:hover .hidden-p {
     display: block;
 }
-.else a:hover {
+.else a:hover, #third-section a:hover {
     color: #6582ff;
 }
 /* Effetti Footer */

@@ -6,7 +6,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-::-webkit-scrollbar {
+body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
     display: none;
 }
 /* Regole Comuni */
