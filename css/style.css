@@ -42,6 +42,9 @@ body {
 .w-40 {
     width: 40%;
 }
+.w-100 {
+    width: 100%;
+}
 /* Header pagina */
 header {
     height: 80vh;
@@ -149,15 +152,11 @@ main section:not(.fourth-section) {
     background-image: url('../img/partner.png');
     background-size: cover;
 }
+
+
 /* Sezione 3 */
 #s3-container {
-    display: flex;
     justify-content: space-between;
-    vertical-align: middle;
-    flex-wrap: wrap;
-}
-#s3-container img {
-    width: 100%;
 }
 #s3-container div {
     width: calc(90% / 3 );
@@ -169,9 +168,8 @@ main section:not(.fourth-section) {
 .third-section h2 {
     padding: 80px 0;
 }
-
 .third-section a {
-    margin: 0 0px 100px;
+    margin: 0 0 100px;
     display: inline-block;
 }
 /* Sezione 4 */
@@ -191,13 +189,31 @@ main section:not(.fourth-section) {
 .bring-dpx { 
     padding: 6% 0px;
 }
+
+
+
 /* Sezione 5 */
 .last-section > h2, .last-section > p {
     padding: 30px 0;
 }
+.hidden-p, .hidden-p-2, .hidden-p-3 {
+    display: none;
+}
+.last-section i {
+    position: relative;
+    left:38%;
+}
+.last-section {
+    padding: 30px 0 30px ;
+}
+
+.last-section:last-child {
+
+
+}
 /* Footer pagina */
 footer {
-    
+
 }
 .f-container {
     width: 70%;

@@ -48,7 +48,7 @@
 .debug .bring-dpx {
     background-color: lightblue;
 }
-.debug .dpx-container {
+.debug div {
     background-color: rgb(19, 83, 15);
 }
 /* Sezione 5 */

@@ -10,7 +10,19 @@
     border:0;
 } 
 /* Effetti corpo pagina  */
+.last-section:hover .hidden-p {
+    display: block;
+}
 
+/* .main-1:hover .hidden-p {
+    display: inline-block;
+}
+.main-2:hover .hidden-p-2 {
+    display: inline-block;
+}
+.main-3:hover .hidden-p-3 {
+    display: inline-block;
+} */
 /* Effetti bottoni  */
 .btn.bl:hover  {
     background-color: blue;
