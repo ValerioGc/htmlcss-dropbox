@@ -29,7 +29,6 @@ body {
 .calc-2-w {
     width: calc(100% / 2);
 }
-
 .calc-2 {
     width: calc(100% / 2);
     height: calc(100% / 2);
@@ -41,32 +40,31 @@ body {
 .w-40 {
     width: 40%;
 }
+.w-30 {
+    width: 30%;
+}
+.w-60 {
+    width: 60%;
+}
 .w-100 {
     width: 100%;
 }
 
 
 
-
 /* Bottoni */
-.btn {
-    padding: 5px 10px;
+.btn, .btnx-wh2 {
+    padding: 10px 20px;
     border: 0;
     cursor: pointer;
 }
-.btn.vh, .btnx-wh2 {
+.btn.wh {
     border: 1px solid black;
-}
-.btnx-wh2 {
-    padding: 5px 20px;
 }
 .btn-dpx {
     flex-basis: 59%;
     padding-left: 20%;
 }
-
-
-
 /* Header pagina */
 header {
     height: 80vh;
@@ -78,17 +76,17 @@ header {
     z-index: 10;
 }
 .h-top ul {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-basis: calc(100vw / 3.5);
     list-style-type: none;
 }
-.h-container-bottom {
-    width: 100%;
+.h-bottom h1 {
+    padding: 50px 210px 50px 60px;
+    font-size: 60px;
 }
 .h-bottom {
-    height: 75vh;
+    height: 80vh;
     padding-top: 65px;
 }
 .h-bottom {
@@ -96,13 +94,15 @@ header {
     width: 70%;
 }
 .jumbo {
-    position: absolute;
-    width: 35%;
-    top: 75%;
-    left: 65%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+}
+#head-jumbo-btn {
+    margin: 40px 0;
 }
 
+.just {
+    justify-content: center;
+}
 
 
 
@@ -125,7 +125,7 @@ main section:not(.fourth-section) {
 }
 /* Prima sezione */
 .head-section > h2 {
-    padding: 60px 0;
+    margin: 140px 0 30px;
 }
 .head-section div, span :not(p) {
     display: inline-block;
@@ -134,7 +134,7 @@ main section:not(.fourth-section) {
     vertical-align: middle;
 }
 .fatturazione {
-    padding: 20px;
+    padding: 25px;
 }
 .price-table-top {
     padding-top: 10px;
@@ -144,7 +144,8 @@ main section:not(.fourth-section) {
 .price-table-top > div {
     border: 1px solid black;
     width: calc(90% / 3);
-    min-height: 130vh;
+    height: 135vh;
+    overflow-y: auto;
 }
 .type {
     padding-left: 20px;
@@ -169,19 +170,8 @@ main section:not(.fourth-section) {
 .duration {
     padding: 0px 25px 20px;
 }
-.info:not(.nodes){
-    padding: 0px 25px 20px 25px;
-}
-.info:not(.people, .folder) {
-    text-align: end;
-    padding-right: 15px;
-}
-.nodes:before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f1e0";
-    padding-left: 10px;
-    display: inline-block;
+.info {
+    padding: 15px 25px 20px 15px;
 }
 .table-btn {
     padding: 12px 49px;
@@ -189,6 +179,22 @@ main section:not(.fourth-section) {
 }
 .else {
     margin-left: 30px;
+}
+/* Regole icone font awersome */
+.people:before, .folder:before, .nodes:before {
+    padding-left: 10px;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.people:before {
+    content: "\f007";
+}
+.folder:before {
+    content: " \f07b";
+}
+.nodes:before {
+    content: "\f1e0";
 }
 /* Tabella prezzi inferiore */
 .price-table-bottom {
@@ -222,22 +228,22 @@ main section:not(.fourth-section) {
 
 /* Sezione 2 */
 .second-section {
-    display: flex;
     align-items: center;
-    padding: 50px 0px;
+    padding: 100px 0 80px;
 }
 .second-section > div {
-    width: calc(100% / 2);
     height: 50vh;
+}
+.second-section div.w-40 {
+    padding: 20px 60px 20px 40px;
+}
+.second-section button {
+    margin: 40px 0;
 }
 #s2-img {
     background-image: url('../img/partner.png');
     background-size: cover;
 }
-
-
-
-
 /* Sezione 3 */
 #s3-container {
     justify-content: space-between;

@@ -32,7 +32,7 @@
 .btn.bl:hover  {
     background-color: #2222ff;
 }
-.btn.wh:hover  {
+.btn.wh:hover, .btnx-wh2:hover  {
     color: #fff;
     background-color: #000;
 }
