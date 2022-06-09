@@ -143,10 +143,13 @@ main section:not(.fourth-section) {
     border: 1px solid black;
     width: calc(90% / 3);
 }
+.type {
+    padding-left: 20px;
+}
 .price-table-top > div hr {
     border: 0.5px solid;
-    width: 30%;
-    margin: 50px 20px 50px;
+    width: 20%;
+    margin: 50px 30px 50px;
 }
 .user-price {
     text-align: center;
@@ -156,24 +159,50 @@ main section:not(.fourth-section) {
 .user-price i {
     padding: 0 6px;
 }
-
+.price {
+    padding: 15px 25px 10px;
+    font-weight: bold;
+}
+.duration {
+    padding: 0px 25px 20px;
+}
+.info {
+}
+.info i {
+    padding: 0 5px 20px 25px;
+}
+.table-btn {
+    padding: 12px 49px;
+    margin: 45px 30px 25px;
+}
+.else {
+    margin-left: 30px;
+}
 /* Tabella prezzi inferiore */
 .price-table-bottom {
     padding-top: 45px;
 }
 .price-table-bottom > div {
     border: 1px solid #000;
-    width: 100%;
 }
-
 .price-table-bottom div{
     position: relative;
 }
 .price-table-bottom button {
     position: absolute;
-    top: 50px;
-    right: 10px;
+    top: 25px;
+    right: 19px;
 }
+.table-btn-bt {
+    padding: 12px 25px;
+}
+#bt-info {
+    padding: 50px 20px 70px;
+}
+#price-bottom {
+    padding: 10px 20px;
+}
+
 
 
 
