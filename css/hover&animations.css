@@ -13,6 +13,9 @@
 #last-section:hover .hidden-p {
     display: block;
 }
+.else a:hover {
+    color: #6582ff;
+}
 /* Effetti Footer */
 .f-container-flex a:hover {
     text-decoration: underline;
