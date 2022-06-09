@@ -1,0 +1,21 @@
+/* Effetti Header  */
+.h-top ul li:hover {
+    padding: 22px 0px;
+    border-bottom: 2px solid black;
+}
+.fatturazione:hover {
+    text-decoration: underline;
+}
+#logo:hover, #nav-btn {
+    border:0;
+} 
+/* Effetti corpo pagina  */
+
+/* Effetti bottoni  */
+.btn.bl:hover  {
+    background-color: blue;
+}
+.btn.wh:hover  {
+    color: #fff;
+    background-color: #000;
+}
