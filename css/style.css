@@ -178,10 +178,18 @@ main section:not(.fourth-section) {
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
+    overflow-y:scroll;
 }
 .b-cont div {
     width: calc(100% / 2);
     height: calc(100% / 2);
+}
+.b-cont p {
+    padding: 10px 40px;
+}
+.b-cont img {
+    margin: 15px 40px;
+    width: 40%;
 }
 .brand-logo {
     display: flex;
@@ -189,8 +197,9 @@ main section:not(.fourth-section) {
     justify-content: center;
 }
 .brand-logo img {
-    width: 50%;
+    width: 40%;
 }
+/* Container inferiore sezione 4 */
 .dpx-container {
     width: calc(100% / 2);
     display: flex;
@@ -204,9 +213,6 @@ main section:not(.fourth-section) {
     padding: 6% 0px;
 }
 /* Sezione 5 */
-.last-section {
-    height: 50vh;
-}
 .last-section > h2 {
     padding: 30px 0;
 }
@@ -216,7 +222,6 @@ main section:not(.fourth-section) {
 }
 /* Footer pagina */
 footer {
-    height: 50vh;
 }
 .f-container {
     width: 70%;
@@ -250,10 +255,10 @@ footer {
     border: 0;
     cursor: pointer;
 }
-.btn.vh, .btnx2-wh {
+.btn.vh, .btnx-wh2 {
     border: 1px solid black;
 }
-.btnx2-wh {
+.btnx-wh2 {
     padding: 5px 20px;
 }
 .btn-dpx {

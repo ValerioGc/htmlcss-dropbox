@@ -53,11 +53,15 @@
 }
 /* Sezione 5 */
 .debug .last-section {
+    height: 50vh;
+}
+.debug .last-section {
     background-color: rgb(226, 159, 43);
 }
 /* Sezione 5 */
 .debug footer {
     background-color: #000;
+    height: 50vh;
 }
 .debug .f-container-flex {
     background-color: rgb(226, 43, 43);
