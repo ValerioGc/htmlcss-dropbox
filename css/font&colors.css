@@ -10,9 +10,12 @@ h2 {
 h3 {
     padding: 20px 0;
 }
-/* Colori Header */
-.h-top {
-    background-color: #fff;
+.main {
+    font-weight: bold;
+}
+/* Classi Colori Comuni */
+.col-w {
+    color: #fff;
 }
 .light-blue {
     background-color: #b4d0e7;
@@ -21,22 +24,22 @@ h3 {
 .price-table-top > div hr {
     border-color: lightgrey;
 }
-/* Colori Sezione 1 */
-.price-table-top > div {
-    border-color: #000;
-}
-.f-container hr {
-    border-color: #fff;
-}
 /* Colori Bottoni */
 .btn.bl {
     background-color: #0061ff;
-    color: #fff;
 }
 .btn.wh, .btx2-wh2 {
     background-color: #fff;
     color: #000;
-    border-color: #000 ;
+    border-color: #000;
+}
+/* Colori Header */
+.h-top {
+    background-color: #fff;
+}
+/* Colori Sezione 1 */
+.price-table-top > div {
+    border-color: #000;
 }
 /* Colori sezione 3 */
 .third-section a, .third-section a:active {
@@ -55,13 +58,12 @@ h3 {
 /* Colori Footer */
 footer {
     background-color: #000;
-    color: #fff;
 }
 .f-container p {
     color: #8e8e8e;
 }
-.f-container i {
-    color: #fff;
+.f-container hr {
+    border-color: #fff;
 }
 /* Colori sfondo brand Sezione 4  */
 #b1 {

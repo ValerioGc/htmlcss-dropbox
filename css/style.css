@@ -45,6 +45,22 @@ body {
 .w-100 {
     width: 100%;
 }
+/* Bottoni */
+.btn {
+    padding: 5px 10px;
+    border: 0;
+    cursor: pointer;
+}
+.btn.vh, .btnx-wh2 {
+    border: 1px solid black;
+}
+.btnx-wh2 {
+    padding: 5px 20px;
+}
+.btn-dpx {
+    flex-basis: 59%;
+    padding-left: 20%;
+}
 /* Header pagina */
 header {
     height: 80vh;
@@ -154,6 +170,7 @@ main section:not(.fourth-section) {
 }
 
 
+
 /* Sezione 3 */
 #s3-container {
     justify-content: space-between;
@@ -193,13 +210,10 @@ main section:not(.fourth-section) {
 .last-section > p {
     padding: 30px 0;
 }
-.main {
-    font-weight: bold;
-}
-.last-section>h2 {
+.last-section > h2 {
     padding: 50px 0;
 }
-.hidden-p, .hidden-p-2, .hidden-p-3 {
+.hidden-p {
     display: none;
 }
 .last-section i {
@@ -213,28 +227,26 @@ main section:not(.fourth-section) {
 footer h3 {
     padding: 20px 0;
 }
-footer ul li {
-    list-style-type: none;
-    padding: 8px 0;
-}
 .f-container {
     width: 70%;
     margin: auto;
     padding: 50px 0;
 }
 .f-container-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.f-container-flex {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 .f-container-flex > div {
     width: calc(85% / 5);
 }
+.f-container-flex ul li {
+    list-style-type: none;
+    padding: 8px 0;
+}
+.f-container-flex a {
+    text-decoration: none;
+}
+/* Parte inferiore footer */
 .f-container i {
     padding: 0 5px;
 }
@@ -243,25 +255,8 @@ footer ul li {
     width: 10%;
     margin: 90px 0 50px;
 }
-#logo:hover {
-    border: 0;
-}
-/* Bottoni */
-.btn {
-    padding: 5px 10px;
-    border: 0;
-    cursor: pointer;
-}
-.btn.vh, .btnx-wh2 {
-    border: 1px solid black;
-}
-.btnx-wh2 {
-    padding: 5px 20px;
-}
-.btn-dpx {
-    flex-basis: 59%;
-    padding-left: 20%;
-}
+
+
 
 
 

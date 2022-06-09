@@ -13,7 +13,6 @@
 .last-section:hover .hidden-p {
     display: block;
 }
-
 /* .m1:hover .hidden-p {
     display: inline-block;
 } /*
@@ -23,6 +22,12 @@
 .main-3:hover .hidden-p-3 {
     display: inline-block;
 } */
+
+/* Effetti Footer */
+.f-container-flex a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
 /* Effetti bottoni  */
 .btn.bl:hover  {
     background-color: blue;
