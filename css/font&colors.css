@@ -1,6 +1,9 @@
 /* Regole font comuni */
-.t-ind-20 {
-    text-indent: -20px;
+.t-ind-13 {
+    text-indent: -13px;
+}
+.t-ind-10 {
+    text-indent: -10px;
 }
 .t-ind-16 {
     text-indent: -16px;

@@ -12,7 +12,7 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
 /* Regole Comuni */
 .d-flex {
     display: flex;
-} 
+}
 .flex-sp-between-center {
     display: flex;
     justify-content: space-between;
@@ -22,9 +22,12 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 .just-center {
     justify-content: center;
+}
+.align-basel {
+    align-items: baseline;
 }
 .flex-wrap {
     flex-wrap: wrap;
@@ -61,6 +64,15 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
 }
 .m-auto {
     margin: auto;
+}
+.m-top-30 {
+    margin-top: 30px;
+}
+.pad-top-bottom-15 {
+    padding: 15px 0;
+}
+.pad-left-20 {
+    padding-left: 20px;
 }
 /* Bottoni */
 .btn, .btnx-wh2 {
@@ -152,46 +164,39 @@ main section:not(#fourth-section) {
 .price-table-top > div {
     border: 1px solid black;
     width: calc(90% / 3);
-    height: 135vh;
+    height: 150vh;
     overflow-y: auto;
 }
-
 .price-table-top > div hr {
     border: 0.5px solid;
     width: 20%;
-    margin: 50px 30px 50px;
+    margin: 50px 35px 50px;
 }
 .user-price {
     text-align: center;
     border-bottom: 1px solid #000;
-    padding: 10px 0 ;
 }
 .user-price i {
     padding: 0 6px;
 }
 .price {
-    padding: 20px 0;
     font-weight: bold;
-}
-.info {
-    padding: 15px 0;
 }
 .table-btn {
     padding: 12px 30px;
     margin: 28px 0px;
-    width: 100%;
-}
-.else {
-    margin-left: 30px;
 }
 /* Regole icone font awersome */
-.people:before, .folder:before, .nodes:before, .check {
+.people:before, .people-2:before, .folder:before, .nodes:before, .check:before {
     display: inline-block;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 .people:before {
     content: "\f007";
+}
+.people-2:before {
+    content: "\f0c0";
 }
 .folder:before {
     content: " \f07b";
@@ -202,6 +207,7 @@ main section:not(#fourth-section) {
 .check::before {
     content: "\f00c";
     color: #0061ff;
+    padding-right:5px;
 }
 /* Tabella prezzi inferiore */
 .price-table-bottom {
@@ -210,14 +216,14 @@ main section:not(#fourth-section) {
 .price-table-bottom > div {
     border: 1px solid #000;
 }
-.price-table-bottom div{
+/* .price-table-bottom div{
     position: relative;
-}
-.price-table-bottom button {
+} */
+/* .price-table-bottom button {
     position: absolute;
     top: 25px;
     right: 19px;
-}
+} */
 .table-btn-bt {
     padding: 12px 25px;
 }
@@ -235,6 +241,7 @@ main section:not(#fourth-section) {
 }
 #second-section > div {
     height: 50vh;
+    width: calc(100vw / 2);
 }
 #second-section div.w-40 {
     padding: 20px 60px 20px 40px;
@@ -266,7 +273,7 @@ main section:not(#fourth-section) {
 }
 /* Sezione 4 */
 .b-cont-c {
-    overflow-y:scroll;
+    overflow-y: scroll;
 }
 .b-cont-c div p {
     padding: 20px 40px;
@@ -280,7 +287,7 @@ main section:not(#fourth-section) {
     width: 20%;
 }
 /* Container inferiore sezione 4 */
-.bring-dpx { 
+.bring-dpx {
     padding: 6% 0px;
 }
 /* Sezione 5 */
@@ -295,7 +302,7 @@ main section:not(#fourth-section) {
 }
 #last-section i {
     position: relative;
-    left:33%;
+    left: 33%;
 }
 #last-section {
     padding: 30px 0 100px ;
@@ -306,7 +313,6 @@ footer h3 {
 }
 .f-container {
     width: 70%;
-    margin: auto;
     padding: 50px 0;
 }
 .f-container-flex {
