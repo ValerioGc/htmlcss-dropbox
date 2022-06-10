@@ -13,9 +13,6 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
 .d-in-blk {
     display: inline-block;
 }
-.td-none {
-    text-decoration: none;
-}
 .d-flex {
     display: flex;
 }
@@ -148,7 +145,7 @@ header nav ul li {
 .head-section > h2 {
     margin: 140px 0 30px;
 }
-.head-section div, span :not(p) {
+.head-section div, span:not(p) {
     display: inline-block;
 }
 .head-section div, span {

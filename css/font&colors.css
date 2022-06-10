@@ -1,4 +1,7 @@
 /* Regole font comuni */
+.td-none {
+    text-decoration: none;
+}
 .t-ind-13 {
     text-indent: -13px;
 }
