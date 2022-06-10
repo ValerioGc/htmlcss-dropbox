@@ -13,6 +13,9 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
 .d-in-blk {
     display: inline-block;
 }
+.td-none {
+    text-decoration: none;
+}
 .d-flex {
     display: flex;
 }
@@ -87,10 +90,14 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
     padding-left: 20px;
 }
 /* Bottoni */
-.btn, .btnx-wh2 {
+.btn {
     padding: 10px 13px;
     border: 0;
-    cursor: pointer;
+}
+.btnx-wh2 {
+    padding: 10px 11px;
+    border: 0;
+    padding: 10px 11px;
 }
 .btn.wh {
     border: 1px solid black;
@@ -118,10 +125,6 @@ header nav ul li {
 }
 #logo {
     line-height: 0;
-}
-.nav-anchor {
-    text-decoration: none;
-    display: inline-block;
 }
 .h-bottom h1 {
     padding-top: 50px;
@@ -314,9 +317,6 @@ footer h3 {
 .f-container-flex ul li {
     list-style-type: none;
     padding: 8px 0;
-}
-.f-container-flex a {
-    text-decoration: none;
 }
 /* Parte inferiore footer */
 .f-container i {
