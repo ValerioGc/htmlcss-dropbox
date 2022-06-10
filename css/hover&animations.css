@@ -15,12 +15,11 @@
 .else a:hover, #third-section a:hover {
     color: #6582ff;
 }
-#last-section:hover .hidden-p {
+#par1:hover .hidden-p, #par2:hover .hidden-p, #par3:hover .hidden-p {
     display: block;
 }
 .main:hover .fa-angle-down {
     transform: rotate(180deg);
-    transition: all 0s linear;
 }
 /* Effetti Footer */
 .f-container-flex a:hover {

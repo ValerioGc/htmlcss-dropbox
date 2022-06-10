@@ -291,6 +291,9 @@ header nav ul li {
 #last-section > p {
     padding: 30px 0;
 }
+.main, .hidden-p {
+    padding: 40px 0;
+}
 .hidden-p {
     display: none;
 }
