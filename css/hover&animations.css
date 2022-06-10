@@ -18,6 +18,10 @@
 .else a:hover, #third-section a:hover {
     color: #6582ff;
 }
+.main:hover .fa-angle-down {
+    transform: rotate(180deg);
+    transition: all 0s linear;
+}
 /* Effetti Footer */
 .f-container-flex a:hover {
     text-decoration: underline;
