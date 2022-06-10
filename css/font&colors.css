@@ -83,25 +83,33 @@ footer {
 /* Colori sfondo brand Sezione 4  */
 #b1 {
     background-color: #a2d39b;
+    border: 20px solid #a2d39b;
 }
 #b2 {
     background-color: #61082b;
+    border: 20px solid #61082b;
 }
 #b3 {
     background-color: #0093ce;
+    border: 20px solid #0093ce;
 }
 #b4 {
     background-color: #ff1c1c;
+    border: 20px solid #ff1c1c;
 }
 #b5 {
     background-color: #d5001f;
+    border: 20px solid #d5001f;
 }
 #b6 {
     background-color: #b4d0e7;
+    border: 20px solid #b4d0e7;
 }
 #b7 {
     background-color: #0d2481;
+    border: 20px solid #0d2481;
 }
 #b8 {
     background-color: #ffd830;
+    border: 20px solid #ffd830;
 }

@@ -12,11 +12,11 @@
     border:0;
 } 
 /* Effetti corpo pagina  */
-#last-section:hover .hidden-p {
-    display: block;
-}
 .else a:hover, #third-section a:hover {
     color: #6582ff;
+}
+#last-section:hover .hidden-p {
+    display: block;
 }
 .main:hover .fa-angle-down {
     transform: rotate(180deg);

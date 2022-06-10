@@ -325,8 +325,5 @@ footer h3 {
 .f-container hr {
     border: 0.5px solid;
     width: 10%;
-    margin: 8% 7.5% 5%;
-}
-#lang {
-    padding-left: 7%;
+    margin: 8% 0 5%;
 }
