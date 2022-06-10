@@ -1,12 +1,16 @@
-/* Regole font */
+/* Regole font comuni */
+.t-ind-20 {
+    text-indent: -20px;
+}
+.t-ind-16 {
+    text-indent: -16px;
+}
 h1 {
     font-size: 40px;
 }
-
 h2 {
     font-size: 36px;
 }
-
 h3 {
     padding: 20px 0;
 }

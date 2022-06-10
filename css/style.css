@@ -43,7 +43,7 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
 .pointer {
     cursor: pointer;
 }
-/* Width preimpostata */
+/* Width e margini preimpostati */
 .w-30 {
     width: 30%;
 }
@@ -53,8 +53,14 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
 .w-60 {
     width: 60%;
 }
+.w-70 {
+    width: 70%;
+}
 .w-100 {
     width: 100%;
+}
+.m-auto {
+    margin: auto;
 }
 /* Bottoni */
 .btn, .btnx-wh2 {
@@ -70,10 +76,6 @@ body::-webkit-scrollbar, #first-section div::-webkit-scrollbar {
     padding-left: 20%;
 }
 /* Header pagina */
-header {
-    height: 80vh;
-    position: relative;
-}
 .h-top {
     position: fixed;
     height: 65px;
@@ -85,30 +87,32 @@ header {
     flex-basis: calc(100vw / 3.5);
     list-style-type: none;
 }
+header nav ul li {
+    flex-shrink: 0;
+    border-bottom: 1px solid #fff;
+    line-height: 65px;
+}
+#logo {
+    line-height: 0;
+}
 .nav-anchor {
     text-decoration: none;
+    display: inline-block;
 }
 .h-bottom h1 {
-    padding: 50px 210px 50px 60px;
-    font-size: 60px;
+    padding: 49px 0;
+    font-size: 65px;
+    width: 90%;
 }
 .h-bottom {
-    height: 80vh;
+    height: 690px;
     padding-top: 65px;
 }
-.h-bottom {
-    margin: auto;
-    width: 70%;
-}
-.jumbo {
-    width: 100%;
-}
 #head-jumbo-btn {
-    margin: 40px 0;
+    margin: 30px 0;
 }
 .fa-arrow-down {
-    position: absolute;
-    bottom: 0%;
+    margin-top: 55px;
 }
 /* Corpo pagina */
 main section:not(#fourth-section) {
@@ -151,9 +155,7 @@ main section:not(#fourth-section) {
     height: 135vh;
     overflow-y: auto;
 }
-.type {
-    padding-left: 20px;
-}
+
 .price-table-top > div hr {
     border: 0.5px solid;
     width: 20%;
@@ -168,25 +170,22 @@ main section:not(#fourth-section) {
     padding: 0 6px;
 }
 .price {
-    padding: 15px 25px 10px;
+    padding: 20px 0;
     font-weight: bold;
 }
-.duration {
-    padding: 0px 25px 20px;
-}
 .info {
-    padding: 15px 25px 20px 15px;
+    padding: 15px 0;
 }
 .table-btn {
-    padding: 12px 49px;
-    margin: 45px 30px 25px;
+    padding: 12px 30px;
+    margin: 28px 0px;
+    width: 100%;
 }
 .else {
     margin-left: 30px;
 }
 /* Regole icone font awersome */
-.people:before, .folder:before, .nodes:before {
-    padding-left: 10px;
+.people:before, .folder:before, .nodes:before, .check {
     display: inline-block;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
@@ -199,6 +198,10 @@ main section:not(#fourth-section) {
 }
 .nodes:before {
     content: "\f1e0";
+}
+.check::before {
+    content: "\f00c";
+    color: #0061ff;
 }
 /* Tabella prezzi inferiore */
 .price-table-bottom {
@@ -292,7 +295,7 @@ main section:not(#fourth-section) {
 }
 #last-section i {
     position: relative;
-    left:38%;
+    left:33%;
 }
 #last-section {
     padding: 30px 0 100px ;

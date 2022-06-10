@@ -1,7 +1,9 @@
 /* Effetti Header  */
 .h-top ul li:hover {
-    padding: 22px 0px;
     border-bottom: 2px solid black;
+}
+.fa-arrow-down:hover {
+    color: #be0000;
 }
 .fatturazione:hover {
     text-decoration: underline;
