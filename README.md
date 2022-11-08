@@ -17,9 +17,9 @@
 
 ## *_Preview:_*
 
-![Preview 1a](/preview/preview-dropbox.gif)
-![Preview 1.5a](/preview/preview-dropbox2.gif)
-![Preview 2a](/preview/thumbnails-dropbox.png)
+![Preview 1a](/previews/preview-dropbox.gif)
+![Preview 1.5a](/previews/preview-dropbox2.gif)
+![Preview 2a](/previews/thumbnails-dropbox.png)
 
 -------
 
