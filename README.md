@@ -9,7 +9,7 @@
 
 ## *_Used Languages:_*
 
-|<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" width="36" height="36" alt="HTML5"/>|<img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="36" height="36" align="center" alt="CSS3" />
+| <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Devicon-html5-plain.svg" width="36" height="36" alt="HTML5"/> | <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="36" height="36" align="center" alt="CSS3" />
 |--|--|htmlcss-dropbox
 | [**HTML**](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) | [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS) |
 
@@ -18,6 +18,7 @@
 ## *_Preview:_*
 
 ![Preview 1a](/preview/preview-dropbox.gif)
+![Preview 1.5a](/preview/preview-dropbox2.gif)
 ![Preview 2a](/preview/thumbnails-dropbox.png)
 
 -------
